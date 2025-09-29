@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="/src/assets/images/cs_logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PoleVaultForbes League_App</title>
+    <style>
+    body {
+     transition: background 1s ease-in;
+     overflow-x: hidden;
+    }
+
+    body.logged-out{
+      background: linear-gradient(to bottom, rgba(6, 5, 88, 0.8), #050131);
+    }
+
+    body.logged-in{
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent),
+              url("/src/assets/images/bg_image.png");
+      background-size: cover;
+      background-attachment: fixed;
+    }
+  </style>
+  </head>
+  <body class="logged-out">
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
