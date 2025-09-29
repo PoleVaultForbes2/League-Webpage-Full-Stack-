@@ -12,6 +12,28 @@ The goal is to provide **real-time, group-based performance tracking** while str
 
 ---
 
+## Screenshots / Demo
+
+![Home Page](/Frontend/src/assets/images/home_page.png)  
+*Landing page with login and navigation*
+
+![Leaderboard](/Frontend/src/assets/images/leaderboard_home_page.png)  
+*Leaderboard view with top KDA and Win Rate*
+
+![Login](/Frontend/src/assets/images/login_screen.png)  
+*Login Screen*
+
+![Individual View](/Frontend/src/assets/images/individual_data.png)  
+*Individual Stats for users logged in*
+
+![Group View](/Frontend/src/assets/images/group_data.png)  
+*Group leaderboard display for custom groups*
+
+---
+
+
+---
+
 ## File Description
 
 - **Backend**
